@@ -1,4 +1,4 @@
-# setup_selenium_chrome_selenium_on_windows_linux
+# Setup_selenium_chrome_selenium_on_windows_linux
 
 - Setting up and running Chrome and Selenium on the CentOS 8 terminal or windows environment
 - The guide is based on CentOS 8, but most of it is the same.
@@ -209,7 +209,7 @@ chromedriver_linux64.zip                100%[===================================
 2023-02-13 13:09:30 (13.0 MB/s) - ‘chromedriver_linux64.zip’ saved [7396711/7396711]
 ```
 
-# Unzip Chrome driver and move file you want.
+## Unzip Chrome driver and move file you want.
 ```
 # unzip chromedriver_linux64.zip
 Archive:  chromedriver_linux64.zip
@@ -245,10 +245,10 @@ drwxr-xr-x. 6 root root   4096 Feb  3  2022 sslscan
 # mv LICENSE.chromedriver chromedrv/
 ```
 
-# O.K done, now let's do Hello_word
+## O.K done, now let's do Hello_word
 - Please adjust the arguments appropriately when running chrome.
 
-## On the Linunx terminal (tested centOS 8 - SSH)
+### On the Linunx terminal (tested centOS 8 - SSH)
 
 ```python
 # hello_world.py
@@ -307,7 +307,7 @@ if __name__ == '__main__':
         print(f'{Bcolors.Yellow}- ::Exception:: Func:[{__name__.__name__}] Line:[{sys.exc_info()[-1].tb_lineno}] [{type(e).__name__}] {e}{Bcolors.Endc}')
 ```
 
-## On the Windows (tested Windows 10 pro)
+### On the Windows (tested Windows 10 pro)
 - Below i used webdriver_manager, If you want to use webdriver_manager, install the webdriver_manager package.
 
 ```python
@@ -355,7 +355,7 @@ if __name__ == '__main__':
         print(f'{Bcolors.Yellow}- ::Exception:: Func:[{__name__.__name__}] Line:[{sys.exc_info()[-1].tb_lineno}] [{type(e).__name__}] {e}{Bcolors.Endc}')
 ```
 
-# Finally, the required packages are as follows
+## Finally, the required packages are as follows
 ```
 # cat requirements.txt
 
