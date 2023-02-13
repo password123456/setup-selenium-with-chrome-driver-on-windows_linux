@@ -280,8 +280,6 @@ def chrome_webdriver_linux():
     options.add_argument('--window-size=1920x1080')
     options.add_argument('--disable-gpu')
     options.add_argument('--no-sandbox')
-    # options.add_experimental_option('detach', True)                           # 브라우저 바로 닫힘 방지
-    # options.add_experimental_option('excludeSwitches', ['enable-logging'])    # 불필요한 메시지 제거
 
     driver = webdriver.Chrome(executable_path='/data/tools/chromedrv/chromedriver', options=options)
     return driver
