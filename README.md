@@ -1,4 +1,4 @@
-# Setup_selenium_chrome_selenium_on_windows_linux
+# Setup_selenium_chrome_on_the_windows_linux
 
 - Setting up and running Chrome and Selenium on the CentOS 8 terminal or windows environment
 - The guide is based on CentOS 8, but most of it is the same.
