@@ -1,4 +1,4 @@
-# Setup_selenium_chrome_on_the_windows_linux
+# Setup selenium with chrome driver on windows/linux
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpassword123456%2Fsetup_selenium_chrome_selenium_on_windows_linux&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 - Setting up and running Chrome and Selenium on the CentOS 8 terminal or windows environment
