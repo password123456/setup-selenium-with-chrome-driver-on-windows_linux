@@ -10,12 +10,12 @@ CentOS Stream release 8
 confirmed at 2023.02.13
 ```
 
-## update the all packages, if necessary
+## Step 1: update the all packages, if necessary
 ```
 # yum update
 ```
 
-## create a new google-chrome repo
+## Step 2: create a new google-chrome repo
 ```bash
 # vi /etc/yum.repos.d/google-chrome.repo
 
@@ -27,7 +27,7 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
 
-## Install goole-chrome
+## Step 3: Install goole-chrome
 ```bash
 # yum install google-chrome-stable
 google-chrome                                                                                                                    15 kB/s | 3.6 kB     00:00
@@ -175,7 +175,7 @@ Installed:
 Complete!
 ```
 
-## check installed chrome version
+## Step 4: check installed chrome version
 ```bash
 1) rpm command
 # rpm -qa | grep google-chrome
@@ -186,7 +186,7 @@ google-chrome-stable-110.0.5481.77-1.x86_64
 Google Chrome 110.0.5481.77
 ```
 
-## Check the Chrome driver and download it 
+## Step 5: Check the Chrome driver and download it 
 - You need to download it with the same version as the installed chrome
 - download: https://sites.google.com/chromium.org/driver/
 - find driver and get it
@@ -210,7 +210,7 @@ chromedriver_linux64.zip                100%[===================================
 2023-02-13 13:09:30 (13.0 MB/s) - ‘chromedriver_linux64.zip’ saved [7396711/7396711]
 ```
 
-## Unzip Chrome driver and move file you want.
+## Step 6: Unzip Chrome driver and move file you want.
 ```
 # unzip chromedriver_linux64.zip
 Archive:  chromedriver_linux64.zip
@@ -246,7 +246,7 @@ drwxr-xr-x. 6 root root   4096 Feb  3  2022 sslscan
 # mv LICENSE.chromedriver chromedrv/
 ```
 
-## O.K done, now let's do Hello_word
+## Step 7: O.K done, now let's do Hello_word
 - Please adjust the arguments appropriately when running chrome.
 
 ### On the Linunx terminal (tested centOS 8 - SSH)
